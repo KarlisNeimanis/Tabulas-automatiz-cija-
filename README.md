@@ -13,9 +13,13 @@ Darba rezūltējošais mērķis ir izveidot programu, kas automatiski izveidos j
 
 Pandas bibleotēka tika izmantota, lai atvētu failu, iegūtu informāciju no faila un izveidotu jaunu failu.
 Sākotnēji darbs tika mēģināts realizēt ar openpyxl. Šis bija tamdēļ, ka šī bibleotēka bija dauzdz izmantota kursa laikā un sākotnēji likās ērtāka šim darbam, tomēr pēc dažādu apgrūtinājumu sastapšanas tika izvēlēta pandas bibleotēka.
-Šī pibleotēka piedāvāja efektīvu veidu kā igūt visus tabulas datus kā arī efektīvi to saglabāt.
+Šī pibleotēka piedāvāja efektīvu veidu kā igūt visus tabulas datus kā arī efektīvi saglabāt jaunā failā.
 
 ## Programaturas izmantošanas metodes
 
-
-  
+Šajā programā patā tiek peilietota viena metode. Tiek izveidots sarakst pie kura katrā iderācijā pieievieno jaunus datus, tomēr ja tiek konstatēts, ka sarakstā jau eksistē šī informācija saraksts neteik papildināts.
+Pēc šī saraksta izveidošanas saraksta datus izmanto, lai izveidotu jaunu excel tabulu. 
+Dažas nelielas lietas ko izmanto darbā ir
+* cilvēka ievade terminālā.
+* jauna faila nosaukšana palstoties uz terminālā ievadīto
+* Faila atveršana balstoties uz personas ievadni terminālā
